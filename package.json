@@ -1,0 +1,13 @@
+{
+  "name": "cv-guillermo-forero",
+  "version": "1.0.0",
+  "description": "Professional CV website for Guillermo Forero",
+  "scripts": {
+    "build": "node build.js",
+    "dev": "node build.js && start src/index.html",
+    "preview": "node build.js && start dist/index.html"
+  },
+  "keywords": ["cv", "resume", "portfolio"],
+  "author": "Guillermo Forero",
+  "license": "MIT"
+}

@@ -39,7 +39,7 @@ cv-guillermo-forero/
 Contains the main CV information:
 - Personal information
 - Professional summary
-- Work experience
+- Work experience (company, position, dates, responsibilities, achievements, technologies)
 - Selected projects
 - Technical skills
 - Education
@@ -64,14 +64,47 @@ SEO and search optimization keywords:
 - Soft skills
 - Industry keywords
 
+## Build Process
+
+### Building the project
+When you make changes to `data/cv-data.js`, you need to run the build script to sync the data and compile the project:
+
+```bash
+npm run build
+```
+
+The build process:
+1. Reads the current data from `data/cv-data.js`
+2. Extracts the cvData object
+3. Replaces the cvData object in `src/app.js` (development)
+4. Compiles all files to the `dist/` directory (production)
+
+### Build Commands
+- `npm run build` - Sync data and compile to dist/
+- `npm run dev` - Build and open development version from src/
+- `npm run preview` - Build and open production version from dist/
+
+### Build Output
+The compiled files are placed in the `dist/` directory:
+- `dist/index.html` - Compiled HTML
+- `dist/styles.css` - Compiled stylesheet
+- `dist/print.css` - Compiled print styles
+- `dist/app.js` - Compiled JavaScript with synced data
+
 ## Usage
 
-To view the CV:
-1. Open `src/index.html` in a web browser
-2. The content will be dynamically loaded from the data files
+To view the CV (development):
+1. Run `npm run build` to sync data files
+2. Open `src/index.html` in a web browser
+3. The content will be dynamically loaded from the data files
+
+To view the CV (production):
+1. Run `npm run build` to compile the project
+2. Open `dist/index.html` in a web browser
+3. Or use `npm run preview` to build and open automatically
 
 To print the CV:
-1. Open `src/index.html` in a web browser
+1. Open `src/index.html` or `dist/index.html` in a web browser
 2. Use the browser's print function (Ctrl+P or Cmd+P)
 3. The print.css file will optimize the layout for printing
 

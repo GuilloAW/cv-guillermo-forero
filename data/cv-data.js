@@ -32,6 +32,10 @@ technical expertise with project leadership and strategic execution.`,
       position: "Tech Lead FrontEnd",
       start: "2022-10",
       end: "2026-09",
+      responsibilities: [
+        // Code review, architecture definition, mentoring, hiring, developer evaluation,
+        // client/stakeholder contact, requirements definition participation
+      ],
       achievements: [
         "Led a multidisciplinary team of X developers across X projects, coordinating priorities and delivery using Agile practices, reducing delivery bottlenecks by X% and improving sprint predictability by X%."
       ],
@@ -48,6 +52,9 @@ technical expertise with project leadership and strategic execution.`,
       position: "Desarrollador de videojuegos",
       start: "2021-09",
       end: "2022-10",
+      responsibilities: [
+        // Daily development tasks, team collaboration, game mechanics implementation
+      ],
       achievements: [
         "Liderazgo de equipo en desarrollo de juegos web educativos",
         "Construcción de juegos para todo público",
@@ -69,6 +76,9 @@ technical expertise with project leadership and strategic execution.`,
       position: "Desarrollador web",
       start: "2020-04",
       end: "2022-10",
+      responsibilities: [
+        // Web development, accessibility implementation, interdisciplinary collaboration
+      ],
       achievements: [
         "Aterrizar ideas y crear proyectos web de forma interdisciplinar",
         "Aplicación de metodologías de diseño centrado en el usuario (DCU)",
@@ -90,6 +100,9 @@ technical expertise with project leadership and strategic execution.`,
       position: "Desarrollador de front-end",
       start: "2019-08",
       end: "2021-04",
+      responsibilities: [
+        // Frontend development, backend integration, technical requirements analysis
+      ],
       achievements: [
         "Desarrollo interdisciplinar entre código y diseño",
         "Integración de tecnologías frontend y backend",
@@ -111,6 +124,9 @@ technical expertise with project leadership and strategic execution.`,
       position: "Asesor de accesibilidad",
       start: "2018-08",
       end: "2020-04",
+      responsibilities: [
+        // Accessibility consulting, accessible web design, OVA development
+      ],
       achievements: [
         "Implemented accessibility improvements following WCAG principles, improving keyboard navigation, semantic structure and assistivetechnology compatibility."
       ],
@@ -129,6 +145,9 @@ technical expertise with project leadership and strategic execution.`,
       position: "Web Master",
       start: "2016-08",
       end: "2018-08",
+      responsibilities: [
+        // Institutional web development, advertising design, UX creation
+      ],
       achievements: [
         "Diseño y desarrollo de páginas web institucionales",
         "Diseño de piezas publicitarias y multimedia",
@@ -147,6 +166,9 @@ technical expertise with project leadership and strategic execution.`,
       position: "Webmaster",
       start: "2016-01",
       end: "2018-08",
+      responsibilities: [
+        // Web maintenance and updates
+      ],
       achievements: [],
       technologies: [
         "HTML",

@@ -46,7 +46,7 @@ cv-guillermo-forero/
 Contains the main CV information organized in sections:
 - Personal information (name, title, location, contact)
 - Professional summary
-- Work experience (company, position, dates, achievements, technologies)
+- Work experience (company, position, dates, responsibilities, achievements, technologies)
 - Selected projects (project, problem, solution, impact)
 - Technical skills (categorized by frontend, web design, accessibility, project management)
 - Education (master's and professional degrees)
@@ -128,6 +128,36 @@ The project supports multiple CV versions tailored for specific roles:
 - Highlight delivery management and stakeholder coordination
 - Focus on project execution and timeline management
 - Emphasize Agile methodologies and continuous improvement
+
+## Build Process
+
+**IMPORTANT:** When making changes to `data/cv-data.js`, you must run the build script to sync the data and compile the project:
+
+```bash
+npm run build
+```
+
+### Build Commands
+- `npm run build` - Sync data and compile to dist/
+- `npm run dev` - Build and open development version from src/
+- `npm run preview` - Build and open production version from dist/
+
+### Build Process
+The build script automatically:
+1. Reads the current data from `data/cv-data.js`
+2. Extracts the cvData object
+3. Replaces the cvData object in `src/app.js` (development)
+4. Compiles all files to the `dist/` directory (production)
+5. Ensures consistency between data files and application code
+
+### Build Output
+The compiled files are placed in the `dist/` directory:
+- `dist/index.html` - Compiled HTML
+- `dist/styles.css` - Compiled stylesheet
+- `dist/print.css` - Compiled print styles
+- `dist/app.js` - Compiled JavaScript with synced data
+
+**Note:** This build process is necessary because the project uses inlined data in `app.js` for browser compatibility without requiring a bundler. The `dist/` folder contains the production-ready compiled files.
 
 ## Testing and Verification
 
