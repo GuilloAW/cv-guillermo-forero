@@ -2,6 +2,8 @@
 
 Professional CV website for Guillermo Forero - Technical Project Management | Frontend Lead | Digital delivery | Web Accessibility
 
+**Note:** For AI/LLM agents working on this project, please refer to [AGENTS.md](AGENTS.md) for detailed project context and guidelines.
+
 ## Project Structure
 
 ```
