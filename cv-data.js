@@ -188,9 +188,10 @@ technical expertise with project leadership and strategic execution.`,
     webDesign: [
       "UX",
       "UI",
-      "Diseño centrado en el usuario (DCU)",
-      "Diseño universal",
-      "Maquetación"
+      "Desing thinking",
+      "User centered design",
+      "Universal design",
+      "Layaout and prototype design"
     ],
     accessibility: [
       "WCAG",
@@ -198,8 +199,8 @@ technical expertise with project leadership and strategic execution.`,
       "Semantic HTML",
       "ARIA",
       "Accessibility Testing",
-      "Lector de voz",
-      "Accesibilidad web"
+      "Voice reader",
+      "Web accessibility"
     ],
     projectManagement: [
       "Agile",
@@ -213,16 +214,16 @@ technical expertise with project leadership and strategic execution.`,
   education: {
     master: [
       {
-        degree: "Master en Tecnologías Accesibles: Página Web, Aplicaciones y Dispositivos Móviles",
-        institution: "[Institution Name]",
-        year: "[Year]"
+        degree: "Magister in accesibility thecnologies: web pages, apps and mobile devices",
+        institution: "Universidad internacional de la Rioja (UNIR)",
+        year: "2019"
       }
     ],
     professional: [
       {
-        degree: "Diseñador y Realizador de Medios Digitales",
-        institution: "[Institution Name]",
-        year: "[Year]"
+        degree: "Digital Media Designer and Producer",
+        institution: "Fundación Universitaria San Mateo",
+        year: "2015"
       }
     ]
   },
@@ -230,30 +231,30 @@ technical expertise with project leadership and strategic execution.`,
   certifications: [
     {
       name: "English for IT 2",
-      issuer: "[Issuer]",
-      year: "[Year]"
+      issuer: "Cisco",
+      year: "2026"
     },
     {
       name: "English for IT 1",
-      issuer: "[Issuer]",
-      year: "[Year]"
+      issuer: "Cisco",
+      year: "2026"
     },
     {
       name: "Project Management Fundamentals",
-      issuer: "[Issuer]",
-      year: "[Year]"
+      issuer: "IBM",
+      year: "2026"
     },
     {
       name: "Cómo llevar un proyecto de animación al mercado internacional",
-      issuer: "[Issuer]",
-      year: "[Year]"
+      issuer: "Crea digital",
+      year: "2026"
     }
   ],
 
   languages: [
     {
       language: "English",
-      level: "B1"
+      level: "B2"
     },
     {
       language: "Spanish",
