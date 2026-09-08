@@ -5,12 +5,12 @@ const keywordsData = {
   jobTitles: [
     "Frontend Lead",
     "Technical Project Manager",
-    "Full-stack Developer",
-    "Web Developer",
     "Project Manager",
     "Delivery Manager",
+    "Web Developer",
     "Web Designer",
-    "Accessibility Specialist"
+    "Accessibility Specialist",
+    "Full-stack Developer" // Secondary keyword - historical experience
   ],
   
   technicalKeywords: [
@@ -22,8 +22,7 @@ const keywordsData = {
     "PHP",
     "Python",
     "Web Development",
-    "Frontend Development",
-    "Full-stack Development"
+    "Frontend Development"
   ],
   
   accessibilityKeywords: [
@@ -40,19 +39,25 @@ const keywordsData = {
     "Agile",
     "Scrum",
     "Technical Leadership",
-    "Team Management",
     "Stakeholder Management",
+    "Cross-functional Team Leadership",
+    "Project Planning",
+    "Project Coordination",
+    "Technical Decision-Making",
     "Delivery Management",
-    "Project Coordination"
+    "Requirements Analysis"
   ],
   
   softSkills: [
     "Leadership",
-    "Communication",
-    "Problem Solving",
-    "Team Collaboration",
-    "Strategic Planning",
-    "Decision Making"
+    "Stakeholder Management",
+    "Cross-functional Team Leadership",
+    "Project Planning",
+    "Project Coordination",
+    "Technical Decision-Making",
+    "Delivery Management",
+    "Requirements Analysis",
+    "Technical Leadership"
   ],
   
   industryKeywords: [

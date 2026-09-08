@@ -4,7 +4,7 @@
 const cvData = {
   personal: {
     name: "Guillermo Forero",
-    title: "Technical Project Management | Frontend Lead | Digital delivery | Web Accessibility",
+    title: "Technical Project Management | Frontend Leadership | Digital Delivery",
     location: "Colombia",
     email: "guillermoforero.aw@gmail.com",
     linkedin: "https://www.linkedin.com/in/guillermo-forero-aw/"
@@ -32,12 +32,25 @@ technical expertise with project leadership and strategic execution.`,
       position: "Tech Lead FrontEnd",
       start: "2022-10",
       end: "2026-09",
+      context: "Led a frontend team of 3 people (2 frontend developers) managing 5 simultaneous web application projects in an Agile environment",
       responsibilities: [
-        // Code review, architecture definition, mentoring, hiring, developer evaluation,
-        // client/stakeholder contact, requirements definition participation
+        "Code review and quality assurance",
+        "Mentoring and team development",
+        "Hiring and developer evaluation",
+        "Direct client/stakeholder communication",
+        "Requirements definition and planning",
+        "Sprint planning and daily standups",
+        "Retrospectives and continuous improvement",
+        "Dependency management and coordination",
+        "Progress reporting and delivery tracking",
+        "Prioritization and estimation of tasks"
       ],
       achievements: [
-        "Led a multidisciplinary team of X developers across X projects, coordinating priorities and delivery using Agile practices, reducing delivery bottlenecks by X% and improving sprint predictability by X%."
+        "Led a multidisciplinary frontend team of 3 developers across 5 simultaneous web application projects using Agile practices and modern frontend technologies to improve delivery coordination and remove technical blockers",
+        "Implemented full Agile methodology with Scrum practices including sprint planning, daily standups, and retrospectives across multiple concurrent projects to enhance team collaboration and delivery predictability",
+        "Coordinated priorities and delivery through effective planning, estimation, and prioritization processes using project management tools to reduce delivery bottlenecks and improve sprint predictability",
+        "Managed dependencies and tracked deliverables across multiple concurrent web applications using systematic follow-up and reporting mechanisms to ensure timely project completion",
+        "Facilitated direct stakeholder communication and requirements definition using structured planning processes to ensure alignment between technical solutions and business objectives"
       ],
       technologies: [
         "React",
@@ -52,13 +65,16 @@ technical expertise with project leadership and strategic execution.`,
       position: "Desarrollador de videojuegos",
       start: "2021-09",
       end: "2022-10",
+      context: "Game development for educational web games targeting diverse audiences",
       responsibilities: [
-        // Daily development tasks, team collaboration, game mechanics implementation
+        "Daily development tasks and game mechanics implementation",
+        "Team collaboration and coordination",
+        "Frontend development for educational content"
       ],
       achievements: [
-        "Liderazgo de equipo en desarrollo de juegos web educativos",
-        "Construcción de juegos para todo público",
-        "Implementación de soluciones con múltiples tecnologías frontend"
+        "Led team development of educational web games using HTML, JavaScript, CSS, and modern frontend frameworks to create engaging content accessible to diverse users",
+        "Built web-based games for general audiences using multiple frontend technologies including TypeScript, SVG, and Git to ensure broad accessibility and cross-platform compatibility",
+        "Implemented comprehensive frontend solutions using JQuery, Sass, and responsive design techniques to deliver optimized gaming experiences across different devices"
       ],
       technologies: [
         "HTML",
@@ -76,13 +92,16 @@ technical expertise with project leadership and strategic execution.`,
       position: "Desarrollador web",
       start: "2020-04",
       end: "2022-10",
+      context: "Web development with focus on accessibility and user-centered design for inclusive digital solutions",
       responsibilities: [
-        // Web development, accessibility implementation, interdisciplinary collaboration
+        "Web development and accessibility implementation",
+        "Interdisciplinary collaboration between design and development",
+        "User-centered design methodology application"
       ],
       achievements: [
-        "Aterrizar ideas y crear proyectos web de forma interdisciplinar",
-        "Aplicación de metodologías de diseño centrado en el usuario (DCU)",
-        "Implementación de estándares de accesibilidad WCAG 2.1"
+        "Transformed abstract ideas into functional web projects through interdisciplinary collaboration using web development technologies to create accessible digital solutions",
+        "Applied user-centered design (DCU) methodologies using UX/UI principles and universal design concepts to ensure optimal user experience for diverse audiences",
+        "Implemented WCAG 2.1 accessibility standards using semantic HTML, screen reader compatibility, and voice reader technologies to ensure digital inclusion for users with disabilities"
       ],
       technologies: [
         "HTML",
@@ -100,13 +119,16 @@ technical expertise with project leadership and strategic execution.`,
       position: "Desarrollador de front-end",
       start: "2019-08",
       end: "2021-04",
+      context: "Frontend development with backend integration and technical requirements analysis",
       responsibilities: [
-        // Frontend development, backend integration, technical requirements analysis
+        "Frontend development and backend integration",
+        "Technical requirements analysis",
+        "Interdisciplinary collaboration between code and design"
       ],
       achievements: [
-        "Desarrollo interdisciplinar entre código y diseño",
-        "Integración de tecnologías frontend y backend",
-        "Análisis de requisitos técnicos"
+        "Developed frontend solutions through interdisciplinary collaboration between code and design using HTML5, CSS, and JavaScript to create cohesive user interfaces",
+        "Integrated frontend and backend technologies using PHP, CodeIgniter, and API development to ensure seamless data flow and application functionality",
+        "Analyzed and implemented technical requirements using Sass, JQuery, and modern frontend frameworks to deliver optimized web solutions aligned with business needs"
       ],
       technologies: [
         "HTML5",
@@ -124,11 +146,16 @@ technical expertise with project leadership and strategic execution.`,
       position: "Asesor de accesibilidad",
       start: "2018-08",
       end: "2020-04",
+      context: "Accessibility consulting and accessible web design for inclusive digital products",
       responsibilities: [
-        // Accessibility consulting, accessible web design, OVA development
+        "Accessibility consulting and strategy",
+        "Accessible web design and development",
+        "OVA (virtual learning objects) accessible development"
       ],
       achievements: [
-        "Implemented accessibility improvements following WCAG principles, improving keyboard navigation, semantic structure and assistivetechnology compatibility."
+        "Implemented accessibility improvements following WCAG principles using semantic HTML and assistive technology compatibility to improve keyboard navigation and overall digital accessibility",
+        "Designed and developed accessible websites using web accessibility standards, UX/UI principles, and voice reader technologies to ensure inclusive user experiences",
+        "Created accessible virtual learning objects (OVA) using JavaScript, CSS, and mobile-optimized UX/UI design to provide educational content accessible to users with disabilities"
       ],
       technologies: [
         "HTML",
@@ -145,13 +172,16 @@ technical expertise with project leadership and strategic execution.`,
       position: "Web Master",
       start: "2016-08",
       end: "2018-08",
+      context: "Institutional web development and multimedia design for educational institution",
       responsibilities: [
-        // Institutional web development, advertising design, UX creation
+        "Institutional web development",
+        "Advertising and multimedia design",
+        "User experience creation"
       ],
       achievements: [
-        "Diseño y desarrollo de páginas web institucionales",
-        "Diseño de piezas publicitarias y multimedia",
-        "Creación de experiencia de usuario"
+        "Designed and developed institutional web pages using HTML, CSS, and JavaScript to establish professional digital presence for the educational institution",
+        "Created advertising pieces and multimedia content using web design and layout techniques to enhance institutional communication and marketing",
+        "Developed user experience strategies using web development best practices and MySQL database integration to improve website usability and engagement"
       ],
       technologies: [
         "HTML",
@@ -166,10 +196,16 @@ technical expertise with project leadership and strategic execution.`,
       position: "Webmaster",
       start: "2016-01",
       end: "2018-08",
+      context: "Web maintenance and content management for institutional websites",
       responsibilities: [
-        // Web maintenance and updates
+        "Web maintenance and updates",
+        "Content management",
+        "Technical support"
       ],
-      achievements: [],
+      achievements: [
+        "Maintained and updated institutional websites using HTML, CSS, and JavaScript to ensure continuous functionality and content freshness",
+        "Provided technical support and troubleshooting using web development technologies to resolve issues and optimize website performance"
+      ],
       technologies: [
         "HTML",
         "CSS",
@@ -267,7 +303,7 @@ technical expertise with project leadership and strategic execution.`,
       year: "2026"
     },
     {
-      name: "Cómo llevar un proyecto de animación al mercado internacional",
+      name: "How to Bring an Animation Project to the International Market",
       issuer: "Crea digital",
       year: "2026"
     }

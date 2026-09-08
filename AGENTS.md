@@ -6,7 +6,7 @@ This file provides context and information for AI agents and LLMs working on the
 
 **Project Name:** cv-guillermo-forero
 
-**Description:** Professional CV website for Guillermo Forero - Technical Project Management | Frontend Lead | Digital delivery | Web Accessibility
+**Description:** Professional CV website for Guillermo Forero - Technical Project Management | Frontend Leadership | Digital Delivery
 
 **Purpose:** Create a responsive, accessible, and professional CV website that showcases Guillermo Forero's experience in technical project management, frontend development, and web accessibility.
 
