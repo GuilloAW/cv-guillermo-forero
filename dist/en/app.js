@@ -59,7 +59,7 @@ con liderazgo de proyectos y ejecución estratégica.`
       end: "2026-09",
       context: {
         en: "Led a frontend team of 3 people (2 frontend developers) managing 5 simultaneous web application projects in an Agile environment",
-        es: "Lideró un equipo frontend de 3 personas (2 desarrolladores frontend) gestionando 5 proyectos de aplicaciones web simultáneos en un entorno Agile"
+        es: "Lideré un equipo frontend de 3 personas (2 desarrolladores frontend) gestionando 5 proyectos de aplicaciones web simultáneos en un entorno Agile"
       },
       responsibilities: {
         en: [
@@ -96,19 +96,27 @@ con liderazgo de proyectos y ejecución estratégica.`
           "Facilitated direct stakeholder communication and requirements definition using structured planning processes to ensure alignment between technical solutions and business objectives"
         ],
         es: [
-          "Lideró un equipo frontend multidisciplinario de 3 desarrolladores en 5 proyectos de aplicaciones web simultáneos usando prácticas Agile y tecnologías frontend modernas para mejorar la coordinación de entrega y eliminar bloqueos técnicos",
-          "Implementó metodología Agile completa con prácticas Scrum incluyendo planificación de sprints, daily standups y retrospectivas en múltiples proyectos concurrentes para mejorar la colaboración del equipo y la previsibilidad de entrega",
-          "Coordinó prioridades y entrega a través de procesos efectivos de planificación, estimación y priorización usando herramientas de gestión de proyectos para reducir cuellos de botella de entrega y mejorar la previsibilidad de sprints",
-          "Gestionó dependencias y rastreó entregables en múltiples aplicaciones web concurrentes usando mecanismos sistemáticos de seguimiento y reporte para asegurar la finalización oportuna de proyectos",
-          "Facilitó comunicación directa con stakeholders y definición de requerimientos usando procesos de planificación estructurados para asegurar alineación entre soluciones técnicas y objetivos de negocio"
+          "Lideré un equipo frontend multidisciplinario de 3 desarrolladores en 5 proyectos de aplicaciones web simultáneos usando prácticas Agile y tecnologías frontend modernas para mejorar la coordinación de entrega y eliminar bloqueos técnicos",
+          "Implementé metodología Agile completa con prácticas Scrum incluyendo planificación de sprints, daily standups y retrospectivas en múltiples proyectos concurrentes para mejorar la colaboración del equipo y la previsibilidad de entrega",
+          "Coordiné prioridades y entrega a través de procesos efectivos de planificación, estimación y priorización usando herramientas de gestión de proyectos para reducir cuellos de botella de entrega y mejorar la previsibilidad de sprints",
+          "Gestioné dependencias y rastreé entregables en múltiples aplicaciones web concurrentes usando mecanismos sistemáticos de seguimiento y reporte para asegurar la finalización oportuna de proyectos",
+          "Facilité comunicación directa con stakeholders y definición de requerimientos usando procesos de planificación estructurados para asegurar alineación entre soluciones técnicas y objetivos de negocio"
         ]
       },
       technologies: [
         "React",
+        "Vue js",
         "JavaScript",
+        "CSS",
+        "HTML",
         "Docker",
         "Nginx",
-        "gitea - gitlab"
+        "gitea - gitlab",
+        "AWS",
+        "API Rest",
+        "IA: ChatGPT, Claude, Gemini",
+        "helpdesk",
+        "Agile: Scrum, Kanban (Jira, Notion)"
       ]
     },
     {
@@ -142,9 +150,9 @@ con liderazgo de proyectos y ejecución estratégica.`
           "Implemented comprehensive frontend solutions using JQuery, Sass, and responsive design techniques to deliver optimized gaming experiences across different devices"
         ],
         es: [
-          "Lideró el desarrollo del equipo de juegos web educativos usando HTML, JavaScript, CSS y frameworks frontend modernos para crear contenido atractivo accesible a usuarios diversos",
-          "Construyó juegos web para audiencias generales usando múltiples tecnologías frontend incluyendo TypeScript, SVG y Git para asegurar amplia accesibilidad y compatibilidad multiplataforma",
-          "Implementó soluciones frontend integrales usando JQuery, Sass y técnicas de diseño responsivo para entregar experiencias de juego optimizadas en diferentes dispositivos"
+          "Lideré el desarrollo del equipo de juegos web educativos usando HTML, JavaScript, CSS y frameworks frontend modernos para crear contenido atractivo accesible a usuarios diversos",
+          "Construí juegos web para audiencias generales usando múltiples tecnologías frontend incluyendo TypeScript, SVG y Git para asegurar amplia accesibilidad y compatibilidad multiplataforma",
+          "Implementé soluciones frontend integrales usando JQuery, Sass y técnicas de diseño responsivo para entregar experiencias de juego optimizadas en diferentes dispositivos"
         ]
       },
       technologies: [
@@ -155,7 +163,8 @@ con liderazgo de proyectos y ejecución estratégica.`
         "Sass",
         "TypeScript",
         "SVG",
-        "Git"
+        "Git",
+        "Agile: Scrum, Kanban (trello)"
       ]
     },
     {
@@ -184,14 +193,14 @@ con liderazgo de proyectos y ejecución estratégica.`
       },
       achievements: {
         en: [
-          "Transformed abstract ideas into functional web projects through interdisciplinary collaboration using web development technologies to create accessible digital solutions",
-          "Applied user-centered design (DCU) methodologies using UX/UI principles and universal design concepts to ensure optimal user experience for diverse audiences",
-          "Implemented WCAG 2.1 accessibility standards using semantic HTML, screen reader compatibility, and voice reader technologies to ensure digital inclusion for users with disabilities"
+          "I transformed abstract ideas into functional web projects through interdisciplinary collaboration, using web development technologies to create accessible digital solutions.",
+          "I applied user-centred design (UCD) methodologies using UX/UI principles and universal design concepts to ensure an optimal user experience for diverse audiences.",
+          "I implemented WCAG 2.1 accessibility standards using semantic HTML, screen reader compatibility, and text-to-speech technologies to ensure digital inclusion for users with disabilities."
         ],
         es: [
-          "Transformó ideas abstractas en proyectos web funcionales a través de colaboración interdisciplinaria usando tecnologías de desarrollo web para crear soluciones digitales accesibles",
-          "Aplicó metodologías de diseño centrado en el usuario (DCU) usando principios UX/UI y conceptos de diseño universal para asegurar experiencia de usuario óptima para audiencias diversas",
-          "Implementó estándares de accesibilidad WCAG 2.1 usando HTML semántico, compatibilidad con lectores de pantalla y tecnologías de lectura de voz para asegurar inclusión digital para usuarios con discapacidades"
+          "Transformé ideas abstractas en proyectos web funcionales a través de colaboración interdisciplinaria usando tecnologías de desarrollo web para crear soluciones digitales accesibles",
+          "Aplicé metodologías de diseño centrado en el usuario (DCU) usando principios UX/UI y conceptos de diseño universal para asegurar experiencia de usuario óptima para audiencias diversas",
+          "Implementé estándares de accesibilidad WCAG 2.1 usando HTML semántico, compatibilidad con lectores de pantalla y tecnologías de lectura de voz para asegurar inclusión digital para usuarios con discapacidades"
         ]
       },
       technologies: [
@@ -236,9 +245,9 @@ con liderazgo de proyectos y ejecución estratégica.`
           "Analyzed and implemented technical requirements using Sass, JQuery, and modern frontend frameworks to deliver optimized web solutions aligned with business needs"
         ],
         es: [
-          "Desarrolló soluciones frontend a través de colaboración interdisciplinaria entre código y diseño usando HTML5, CSS y JavaScript para crear interfaces de usuario cohesivas",
-          "Integró tecnologías frontend y backend usando PHP, CodeIgniter y desarrollo de API para asegurar flujo de datos sin interrupciones y funcionalidad de aplicación",
-          "Analizó e implementó requerimientos técnicos usando Sass, JQuery y frameworks frontend modernos para entregar soluciones web optimizadas alineadas con necesidades de negocio"
+          "Desarrollé soluciones frontend a través de colaboración interdisciplinaria entre código y diseño usando HTML5, CSS y JavaScript para crear interfaces de usuario cohesivas",
+          "Integré tecnologías frontend y backend usando PHP, CodeIgniter y desarrollo de API para asegurar flujo de datos sin interrupciones y funcionalidad de aplicación",
+          "Analicé e implementé requerimientos técnicos usando Sass, JQuery y frameworks frontend modernos para entregar soluciones web optimizadas alineadas con necesidades de negocio"
         ]
       },
       technologies: [
@@ -249,7 +258,7 @@ con liderazgo de proyectos y ejecución estratégica.`
         "PHP",
         "CodeIgniter",
         "JavaScript",
-        "API"
+        "API Rest"
       ]
     },
     {
@@ -283,9 +292,9 @@ con liderazgo de proyectos y ejecución estratégica.`
           "Created accessible virtual learning objects (OVA) using JavaScript, CSS, and mobile-optimized UX/UI design to provide educational content accessible to users with disabilities"
         ],
         es: [
-          "Implementó mejoras de accesibilidad siguiendo principios WCAG usando HTML semántico y compatibilidad con tecnologías de asistencia para mejorar navegación por teclado y accesibilidad digital general",
-          "Diseñó y desarrolló sitios web accesibles usando estándares de accesibilidad web, principios UX/UI y tecnologías de lectura de voz para asegurar experiencias de usuario inclusivas",
-          "Creó objetos virtuales de aprendizaje (OVA) accesibles usando JavaScript, CSS y diseño UX/UI optimizado para móviles para proporcionar contenido educativo accesible a usuarios con discapacidades"
+          "Implementé mejoras de accesibilidad siguiendo principios WCAG usando HTML semántico y compatibilidad con tecnologías de asistencia para mejorar navegación por teclado y accesibilidad digital general",
+          "Diseñé y desarrollé sitios web accesibles usando estándares de accesibilidad web, principios UX/UI y tecnologías de lectura de voz para asegurar experiencias de usuario inclusivas",
+          "Creé objetos virtuales de aprendizaje (OVA) accesibles usando JavaScript, CSS y diseño UX/UI optimizado para móviles para proporcionar contenido educativo accesible a usuarios con discapacidades"
         ]
       },
       technologies: [
@@ -301,37 +310,47 @@ con liderazgo de proyectos y ejecución estratégica.`
     {
       company: "Fundación Universitaria San Mateo",
       position: {
-        en: "Web Master",
-        es: "Web Master"
+        en: "Web Master / Webmaster",
+        es: "Web Master / Webmaster"
       },
-      start: "2016-08",
+      start: "2016-01",
       end: "2018-08",
       context: {
-        en: "Institutional web development and multimedia design for educational institution",
-        es: "Desarrollo web institucional y diseño multimedia para institución educativa"
+        en: "Institutional web development, multimedia design, web maintenance and content management for educational institution",
+        es: "Desarrollo web institucional, diseño multimedia, mantenimiento web y gestión de contenido para institución educativa"
       },
       responsibilities: {
         en: [
           "Institutional web development",
           "Advertising and multimedia design",
-          "User experience creation"
+          "User experience creation",
+          "Web maintenance and updates",
+          "Content management",
+          "Technical support"
         ],
         es: [
           "Desarrollo web institucional",
           "Diseño publicitario y multimedia",
-          "Creación de experiencia de usuario"
+          "Creación de experiencia de usuario",
+          "Mantenimiento y actualizaciones web",
+          "Gestión de contenido",
+          "Soporte técnico"
         ]
       },
       achievements: {
         en: [
           "Designed and developed institutional web pages using HTML, CSS, and JavaScript to establish professional digital presence for the educational institution",
           "Created advertising pieces and multimedia content using web design and layout techniques to enhance institutional communication and marketing",
-          "Developed user experience strategies using web development best practices and MySQL database integration to improve website usability and engagement"
+          "Developed user experience strategies using web development best practices and MySQL database integration to improve website usability and engagement",
+          "Maintained and updated institutional websites using HTML, CSS, and JavaScript to ensure continuous functionality and content freshness",
+          "Provided technical support and troubleshooting using web development technologies to resolve issues and optimize website performance"
         ],
         es: [
           "Diseñó y desarrolló páginas web institucionales usando HTML, CSS y JavaScript para establecer presencia digital profesional para la institución educativa",
           "Creó piezas publicitarias y contenido multimedia usando técnicas de diseño web y maquetación para mejorar la comunicación institucional y marketing",
-          "Desarrolló estrategias de experiencia de usuario usando mejores prácticas de desarrollo web e integración de base de datos MySQL para mejorar usabilidad y compromiso del sitio web"
+          "Desarrolló estrategias de experiencia de usuario usando mejores prácticas de desarrollo web e integración de base de datos MySQL para mejorar usabilidad y compromiso del sitio web",
+          "Mantuvo y actualizó sitios web institucionales usando HTML, CSS y JavaScript para asegurar funcionalidad continua y frescura del contenido",
+          "Proporcionó soporte técnico y solución de problemas usando tecnologías de desarrollo web para resolver problemas y optimizar el rendimiento del sitio web"
         ]
       },
       technologies: [
@@ -340,46 +359,6 @@ con liderazgo de proyectos y ejecución estratégica.`
         "JavaScript",
         "Maquetación",
         "MySQL"
-      ]
-    },
-    {
-      company: "Fundación Universitaria San Mateo",
-      position: {
-        en: "Webmaster",
-        es: "Webmaster"
-      },
-      start: "2016-01",
-      end: "2018-08",
-      context: {
-        en: "Web maintenance and content management for institutional websites",
-        es: "Mantenimiento web y gestión de contenido para sitios web institucionales"
-      },
-      responsibilities: {
-        en: [
-          "Web maintenance and updates",
-          "Content management",
-          "Technical support"
-        ],
-        es: [
-          "Mantenimiento y actualizaciones web",
-          "Gestión de contenido",
-          "Soporte técnico"
-        ]
-      },
-      achievements: {
-        en: [
-          "Maintained and updated institutional websites using HTML, CSS, and JavaScript to ensure continuous functionality and content freshness",
-          "Provided technical support and troubleshooting using web development technologies to resolve issues and optimize website performance"
-        ],
-        es: [
-          "Mantuvo y actualizó sitios web institucionales usando HTML, CSS y JavaScript para asegurar funcionalidad continua y frescura del contenido",
-          "Proporcionó soporte técnico y solución de problemas usando tecnologías de desarrollo web para resolver problemas y optimizar el rendimiento del sitio web"
-        ]
-      },
-      technologies: [
-        "HTML",
-        "CSS",
-        "JavaScript"
       ]
     }
   ],
@@ -396,7 +375,7 @@ con liderazgo de proyectos y ejecución estratégica.`
       },
       solution: {
         en: "Led development of multiple web-based educational games using HTML, JavaScript, CSS, and modern frontend frameworks",
-        es: "Lideró el desarrollo de múltiples juegos web educativos usando HTML, JavaScript, CSS y frameworks frontend modernos"
+        es: "Lideré el desarrollo de múltiples juegos web educativos usando HTML, JavaScript, CSS y frameworks frontend modernos"
       },
       impact: {
         en: "Created engaging educational content accessible to diverse users",
