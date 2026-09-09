@@ -8,6 +8,26 @@ if (!fs.existsSync(distDir)) {
     fs.mkdirSync(distDir, { recursive: true });
 }
 
+// Clean up old files in dist root (if they exist)
+const oldFiles = ['app.js', 'index.html', 'styles.css', 'print.css'];
+oldFiles.forEach(file => {
+    const filePath = path.join(distDir, file);
+    if (fs.existsSync(filePath)) {
+        fs.unlinkSync(filePath);
+        console.log(`🗑️  Removed old file: ${file}`);
+    }
+});
+
+// Create language subdirectories
+const enDir = path.join(distDir, 'en');
+const esDir = path.join(distDir, 'es');
+
+[enDir, esDir].forEach(dir => {
+    if (!fs.existsSync(dir)) {
+        fs.mkdirSync(dir, { recursive: true });
+    }
+});
+
 // Read cv-data.js
 const cvDataPath = path.join(__dirname, 'data', 'cv-data.js');
 const cvDataContent = fs.readFileSync(cvDataPath, 'utf8');
@@ -34,7 +54,7 @@ const updatedAppJsContent = appJsContent.replace(
 // Write updated app.js to src/ (development)
 fs.writeFileSync(appJsPath, updatedAppJsContent, 'utf8');
 
-// Copy files to dist/ directory (production build)
+// Copy files to both language directories in dist/
 const filesToCopy = [
     'src/index.html',
     'src/styles.css',
@@ -42,11 +62,16 @@ const filesToCopy = [
     'src/app.js'
 ];
 
-filesToCopy.forEach(file => {
-    const sourcePath = path.join(__dirname, file);
-    const destPath = path.join(__dirname, 'dist', path.basename(file));
-    fs.copyFileSync(sourcePath, destPath);
-    console.log(`📄 Copied ${file} to dist/`);
+['en', 'es'].forEach(lang => {
+    const langDir = path.join(distDir, lang);
+    console.log(`\n📦 Building ${lang.toUpperCase()} version...`);
+    
+    filesToCopy.forEach(file => {
+        const sourcePath = path.join(__dirname, file);
+        const destPath = path.join(langDir, path.basename(file));
+        fs.copyFileSync(sourcePath, destPath);
+        console.log(`📄 Copied ${file} to dist/${lang}/`);
+    });
 });
 
-console.log('✅ Build completed: cv-data.js synced with app.js and compiled to dist/');
+console.log('\n✅ Build completed: cv-data.js synced with app.js and compiled to dist/en/ and dist/es/');

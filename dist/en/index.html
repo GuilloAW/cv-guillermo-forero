@@ -8,6 +8,24 @@
     <title>Guillermo Forero - CV</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="print.css" media="print">
+    <style>
+        .language-selector {
+            margin-top: 1rem;
+            font-size: 0.9rem;
+        }
+        .lang-link {
+            color: #007bff;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            border: 1px solid #007bff;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+        .lang-link:hover {
+            background-color: #007bff;
+            color: white;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
@@ -22,37 +40,37 @@
         </header>
 
         <section class="summary">
-            <h2>Summary</h2>
+            <h2 data-en="Summary" data-es="Resumen">Summary</h2>
             <div id="summary-content"></div>
         </section>
 
         <section class="experience">
-            <h2>Experience</h2>
+            <h2 data-en="Experience" data-es="Experiencia">Experience</h2>
             <div id="experience-content"></div>
         </section>
 
         <section class="projects">
-            <h2>Selected Projects</h2>
+            <h2 data-en="Selected Projects" data-es="Proyectos Seleccionados">Selected Projects</h2>
             <div id="projects-content"></div>
         </section>
 
         <section class="skills">
-            <h2>Technical Skills</h2>
+            <h2 data-en="Technical Skills" data-es="Habilidades Técnicas">Technical Skills</h2>
             <div id="skills-content"></div>
         </section>
 
         <section class="education">
-            <h2>Education</h2>
+            <h2 data-en="Education" data-es="Educación">Education</h2>
             <div id="education-content"></div>
         </section>
 
         <section class="certifications">
-            <h2>Certifications</h2>
+            <h2 data-en="Certifications" data-es="Certificaciones">Certifications</h2>
             <div id="certifications-content"></div>
         </section>
 
         <section class="languages">
-            <h2>Languages</h2>
+            <h2 data-en="Languages" data-es="Idiomas">Languages</h2>
             <div id="languages-content"></div>
         </section>
     </div>
