@@ -7,7 +7,7 @@ const cvData = {
   location: "Colombia",
   email: "guillermoforero.aw@gmail.com",
   linkedin: "https://www.linkedin.com/in/guillermo-forero-aw/",
-  /* github: "https://github.com/GuilloAW" */
+  github: "https://github.com/guillermo-forero"
 },
 
 title: {
@@ -445,13 +445,26 @@ Experiencia práctica en coordinación de equipos, proyectos, stakeholders y pro
       "Accessibility Testing",
       "Lector de voz",
       "Accesibilidad web"
-    ],
-    projectManagement: [
+    ]
+  },
+
+  projectManagementSkills: {
+    methodologies: [
       "Agile",
       "Scrum",
+      "Kanban"
+    ],
+    leadership: [
       "Gestión de Stakeholders",
-      "Delivery",
-      "Gestión de Proyectos Técnicos"
+      "Liderazgo de equipos técnicos",
+      "Coordinación de entregas",
+      "Gestión de dependencias"
+    ],
+    delivery: [
+      "Technical Project Management",
+      "Delivery Management",
+      "Planificación de sprints",
+      "Seguimiento de métricas"
     ]
   },
 
@@ -526,7 +539,7 @@ Experiencia práctica en coordinación de equipos, proyectos, stakeholders y pro
         en: "Spanish",
         es: "Español"
       },
-      level: "Native"
+      level: "Nativo"
     }
   ]
 };

@@ -8,7 +8,7 @@ const cvData = {
   location: "Colombia",
   email: "guillermoforero.aw@gmail.com",
   linkedin: "https://www.linkedin.com/in/guillermo-forero-aw/",
-  /* github: "https://github.com/GuilloAW" */
+  github: "https://github.com/guillermo-forero"
 },
 
 title: {
@@ -446,13 +446,26 @@ Experiencia práctica en coordinación de equipos, proyectos, stakeholders y pro
       "Accessibility Testing",
       "Lector de voz",
       "Accesibilidad web"
-    ],
-    projectManagement: [
+    ]
+  },
+
+  projectManagementSkills: {
+    methodologies: [
       "Agile",
       "Scrum",
+      "Kanban"
+    ],
+    leadership: [
       "Gestión de Stakeholders",
-      "Delivery",
-      "Gestión de Proyectos Técnicos"
+      "Liderazgo de equipos técnicos",
+      "Coordinación de entregas",
+      "Gestión de dependencias"
+    ],
+    delivery: [
+      "Technical Project Management",
+      "Delivery Management",
+      "Planificación de sprints",
+      "Seguimiento de métricas"
     ]
   },
 
@@ -563,6 +576,31 @@ function getLocalizedValue(obj, key) {
     return '';
 }
 
+// Helper function to format dates in human-readable format
+function formatDate(dateString) {
+    if (!dateString) return '';
+    
+    const date = new Date(dateString);
+    if (isNaN(date.getTime())) return dateString;
+    
+    const months = {
+        en: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+        es: ['Ene', 'Feb', 'Mar', 'Abr', 'May', 'Jun', 'Jul', 'Ago', 'Sep', 'Oct', 'Nov', 'Dic']
+    };
+    
+    const month = months[currentLanguage][date.getMonth()];
+    const year = date.getFullYear();
+    
+    return `${month} ${year}`;
+}
+
+// Helper function to format date range
+function formatDateRange(startDate, endDate) {
+    const start = formatDate(startDate);
+    const end = endDate ? formatDate(endDate) : 'Present';
+    return `${start} – ${end}`;
+}
+
 const skillsData = {
   frontend: [
     "JavaScript",
@@ -626,8 +664,8 @@ document.addEventListener('DOMContentLoaded', function() {
     loadSectionTitles();
     loadSummary();
     loadExperience();
-    loadProjects();
     loadSkills();
+    loadProjectManagement();
     loadEducation();
     loadCertifications();
     loadLanguages();
@@ -669,7 +707,7 @@ function loadExperience() {
                 <div class="experience-item">
                     <h3>${position}</h3>
                     <p class="company">${exp.company}</p>
-                    <p class="date">${exp.start} - ${exp.end}</p>
+                    <p class="date">${formatDateRange(exp.start, exp.end)}</p>
                     ${context ? `
                         <div class="context">
                             <strong>${currentLanguage === 'es' ? 'Contexto:' : 'Context:'}</strong>
@@ -707,29 +745,6 @@ function loadExperience() {
     }
 }
 
-function loadProjects() {
-    const projectsContent = document.getElementById('projects-content');
-    if (projectsContent && cvData.selectedProjects) {
-        let html = '';
-        cvData.selectedProjects.forEach(project => {
-            const projectName = getLocalizedValue(project, 'project');
-            const problem = getLocalizedValue(project, 'problem');
-            const solution = getLocalizedValue(project, 'solution');
-            const impact = getLocalizedValue(project, 'impact');
-            
-            html += `
-                <div class="project-item">
-                    <h3>${projectName}</h3>
-                    <p><strong>${currentLanguage === 'es' ? 'Problema:' : 'Problem:'}</strong> ${problem}</p>
-                    <p><strong>${currentLanguage === 'es' ? 'Solución:' : 'Solution:'}</strong> ${solution}</p>
-                    <p><strong>${currentLanguage === 'es' ? 'Impacto:' : 'Impact:'}</strong> ${impact}</p>
-                </div>
-            `;
-        });
-        projectsContent.innerHTML = html;
-    }
-}
-
 function loadSkills() {
     const skillsContent = document.getElementById('skills-content');
     if (skillsContent && cvData.technicalSkills) {
@@ -748,6 +763,27 @@ function loadSkills() {
         
         html += '</div>';
         skillsContent.innerHTML = html;
+    }
+}
+
+function loadProjectManagement() {
+    const pmContent = document.getElementById('project-management-content');
+    if (pmContent && cvData.projectManagementSkills) {
+        let html = '<div class="skills-grid">';
+        
+        Object.keys(cvData.projectManagementSkills).forEach(category => {
+            html += `
+                <div class="skill-category">
+                    <h3>${category.charAt(0).toUpperCase() + category.slice(1)}</h3>
+                    <ul>
+                        ${cvData.projectManagementSkills[category].map(skill => `<li>${skill}</li>`).join('')}
+                    </ul>
+                </div>
+            `;
+        });
+        
+        html += '</div>';
+        pmContent.innerHTML = html;
     }
 }
 
