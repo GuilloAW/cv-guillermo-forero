@@ -540,7 +540,7 @@ Experiencia práctica en coordinación de equipos, proyectos, stakeholders y pro
         en: "Spanish",
         es: "Español"
       },
-      level: "Native"
+      level: "Nativo"
     }
   ]
 };
