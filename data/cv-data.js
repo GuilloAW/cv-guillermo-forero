@@ -3,122 +3,114 @@
 
 const cvData = {
   personal: {
-    name: "Guillermo Forero",
-    location: "Colombia",
-    email: "guillermoforero.aw@gmail.com",
-    linkedin: "https://www.linkedin.com/in/guillermo-forero-aw/"
-  },
+  name: "Guillermo Forero",
+  location: "Colombia",
+  email: "guillermoforero.aw@gmail.com",
+  linkedin: "https://www.linkedin.com/in/guillermo-forero-aw/",
+  /* github: "https://github.com/GuilloAW" */
+},
 
-  title: {
-    en: "Technical Project Management | Frontend Leadership | Digital Delivery",
-    es: "Gestión de Proyectos Técnicos | Liderazgo Frontend | Entrega Digital"
-  },
+title: {
+  en: "Frontend Lead | Technical Project Leadership | Digital Delivery",
+  es: "Frontend Lead | Liderazgo de Proyectos Técnicos | Entrega Digital"
+},
 
   summary: {
-    en: `Frontend Lead and technology professional with experience leading
-multidisciplinary development teams, coordinating IT projects and
-delivering digital products aligned with business objectives.
+    en: `Frontend Lead and technology professional with experience leading multidisciplinary development teams, coordinating IT projects, and delivering digital products aligned with business objectives.
 
-Experienced in technical leadership, frontend development, UX/UI,
-web accessibility, Agile methodologies, stakeholder management,
-prioritization and delivery.
+Experienced in technical leadership, frontend development, UX/UI, web accessibility, Agile methodologies, stakeholder management, requirements planning, prioritization, and delivery coordination.
 
-Bridge technical and business teams to translate requirements into
-scalable digital solutions, remove delivery blockers and improve
-team execution.
+Bridge technical and business teams to translate requirements into digital solutions, manage dependencies, remove delivery blockers, and maintain alignment throughout the development lifecycle.
 
-Currently focused on growing into Technical Project Manager,
-IT Project Manager and Delivery Manager roles, combining
-technical expertise with project leadership and strategic execution.`,
-    es: `Líder Frontend y profesional de tecnología con experiencia liderando
-equipos de desarrollo multidisciplinarios, coordinando proyectos de TI y
-entregando productos digitales alineados con objetivos de negocio.
+Brings hands-on experience coordinating teams, projects, stakeholders, and delivery processes, with a career focus on Technical Project Management, IT Project Management, and Digital Delivery.`,
+    es: `Frontend Lead y profesional de tecnología con experiencia liderando equipos multidisciplinarios de desarrollo, coordinando proyectos de TI y entregando productos digitales alineados con objetivos de negocio.
 
-Con experiencia en liderazgo técnico, desarrollo frontend, UX/UI,
-accesibilidad web, metodologías Agile, gestión de stakeholders,
-priorización y entrega.
+Experiencia en liderazgo técnico, desarrollo frontend, UX/UI, accesibilidad web, metodologías Agile, gestión de stakeholders, planificación de requerimientos, priorización y coordinación de entregas.
 
-Puente entre equipos técnicos y de negocio para traducir requerimientos en
-soluciones digitales escalables, eliminar bloqueos de entrega y mejorar
-la ejecución del equipo.
+Conecto equipos técnicos y de negocio para traducir requerimientos en soluciones digitales, gestionar dependencias, eliminar bloqueos de entrega y mantener la alineación durante el ciclo de desarrollo.
 
-Actualmente enfocado en crecer hacia roles de Technical Project Manager,
-IT Project Manager y Delivery Manager, combinando experiencia técnica
-con liderazgo de proyectos y ejecución estratégica.`
+Experiencia práctica en coordinación de equipos, proyectos, stakeholders y procesos de entrega, con orientación profesional hacia la Gestión de Proyectos Técnicos, Gestión de Proyectos de TI y Digital Delivery.`
   },
 
   experience: [
     {
-      company: "Quick",
-      position: {
-        en: "Tech Lead FrontEnd",
-        es: "Tech Lead FrontEnd"
-      },
-      start: "2022-10",
-      end: "2026-09",
-      context: {
-        en: "Led a frontend team of 3 people (2 frontend developers) managing 5 simultaneous web application projects in an Agile environment",
-        es: "Lideré un equipo frontend de 3 personas (2 desarrolladores frontend) gestionando 5 proyectos de aplicaciones web simultáneos en un entorno Agile"
-      },
-      responsibilities: {
-        en: [
-          "Code review and quality assurance",
-          "Mentoring and team development",
-          "Hiring and developer evaluation",
-          "Direct client/stakeholder communication",
-          "Requirements definition and planning",
-          "Sprint planning and daily standups",
-          "Retrospectives and continuous improvement",
-          "Dependency management and coordination",
-          "Progress reporting and delivery tracking",
-          "Prioritization and estimation of tasks"
-        ],
-        es: [
-          "Revisión de código y aseguramiento de calidad",
-          "Mentoría y desarrollo del equipo",
-          "Contratación y evaluación de desarrolladores",
-          "Comunicación directa con clientes/stakeholders",
-          "Definición de requerimientos y planificación",
-          "Planificación de sprints y daily standups",
-          "Retrospectivas y mejora continua",
-          "Gestión de dependencias y coordinación",
-          "Reporte de progreso y seguimiento de entrega",
-          "Priorización y estimación de tareas"
-        ]
-      },
-      achievements: {
-        en: [
-          "Led a multidisciplinary frontend team of 3 developers across 5 simultaneous web application projects using Agile practices and modern frontend technologies to improve delivery coordination and remove technical blockers",
-          "Implemented full Agile methodology with Scrum practices including sprint planning, daily standups, and retrospectives across multiple concurrent projects to enhance team collaboration and delivery predictability",
-          "Coordinated priorities and delivery through effective planning, estimation, and prioritization processes using project management tools to reduce delivery bottlenecks and improve sprint predictability",
-          "Managed dependencies and tracked deliverables across multiple concurrent web applications using systematic follow-up and reporting mechanisms to ensure timely project completion",
-          "Facilitated direct stakeholder communication and requirements definition using structured planning processes to ensure alignment between technical solutions and business objectives"
-        ],
-        es: [
-          "Lideré un equipo frontend multidisciplinario de 3 desarrolladores en 5 proyectos de aplicaciones web simultáneos usando prácticas Agile y tecnologías frontend modernas para mejorar la coordinación de entrega y eliminar bloqueos técnicos",
-          "Implementé metodología Agile completa con prácticas Scrum incluyendo planificación de sprints, daily standups y retrospectivas en múltiples proyectos concurrentes para mejorar la colaboración del equipo y la previsibilidad de entrega",
-          "Coordiné prioridades y entrega a través de procesos efectivos de planificación, estimación y priorización usando herramientas de gestión de proyectos para reducir cuellos de botella de entrega y mejorar la previsibilidad de sprints",
-          "Gestioné dependencias y rastreé entregables en múltiples aplicaciones web concurrentes usando mecanismos sistemáticos de seguimiento y reporte para asegurar la finalización oportuna de proyectos",
-          "Facilité comunicación directa con stakeholders y definición de requerimientos usando procesos de planificación estructurados para asegurar alineación entre soluciones técnicas y objetivos de negocio"
-        ]
-      },
-      technologies: [
-        "React",
-        "Vue js",
-        "JavaScript",
-        "CSS",
-        "HTML",
-        "Docker",
-        "Nginx",
-        "Redis",
-        "gitea - gitlab",
-        "AWS",
-        "API Rest",
-        "IA: ChatGPT, Claude, Gemini",
-        "helpdesk",
-        "Agile: Scrum, Kanban (Jira, Notion)"
-      ]
-    },
+  company: "Quick",
+  position: {
+    en: "Tech Lead FrontEnd",
+    es: "Tech Lead FrontEnd"
+  },
+  start: "2022-10",
+  end: "2026-09",
+
+  context: {
+    en: "Led a 3-person frontend team responsible for the development, maintenance, and evolution of 6 web platforms serving more than 100 clients, working across frontend, backend, QA, product, and DevOps in an Agile environment.",
+    es: "Lideré un equipo frontend de 3 personas responsable del desarrollo, mantenimiento y evolución de 6 plataformas web que atienden a más de 100 clientes, trabajando de forma transversal con frontend, backend, QA, producto y DevOps en un entorno Agile."
+  },
+
+  responsibilities: {
+    en: [
+      "Technical leadership, code review, and quality assurance",
+      "Requirements analysis, refinement, planning, and estimation",
+      "Task allocation, prioritization, and sprint planning",
+      "Frontend development and technical decision-making",
+      "Cross-functional coordination with backend, QA, product, and DevOps",
+      "Dependency, blocker, and progress management",
+      "Release coordination, production delivery, and technical support",
+      "Mentoring, hiring, and developer evaluation"
+    ],
+
+    es: [
+      "Liderazgo técnico, revisión de código y aseguramiento de calidad",
+      "Análisis, refinamiento, planificación y estimación de requerimientos",
+      "Asignación de tareas, priorización y planificación de sprints",
+      "Desarrollo frontend y toma de decisiones técnicas",
+      "Coordinación transversal con backend, QA, producto y DevOps",
+      "Gestión de dependencias, bloqueos y seguimiento del avance",
+      "Coordinación de entregas, despliegues y soporte técnico",
+      "Mentoría, contratación y evaluación de desarrolladores"
+    ]
+  },
+
+  achievements: {
+    en: [
+      "Led a 3-person frontend team across 6 web platforms serving more than 100 clients, coordinating development, maintenance, support, priorities, and dependencies within an Agile environment.",
+      "Coordinated biweekly production releases, balancing support tickets, client-requested enhancements, and continuous platform improvements across multiple products.",
+      "Coordinated requirements from refinement and solution definition through estimation, development, QA, and production delivery, managing priorities and dependencies throughout the process.",
+      "Coordinated the migration of SmartQuick from v4 to v5 while maintaining the existing platform in production, mapping operational, administrative, and logistics processes and coordinating frontend, backend, QA, and product work through delivery.",
+      "Introduced and structured development and delivery practices that improved work organization, prioritization, visibility, and cross-functional coordination while balancing ongoing support with new product development.",
+      "Participated in the hiring and evaluation of 3 frontend developers, contributing to team growth and technical capability assessment."
+    ],
+
+    es: [
+      "Lideré un equipo frontend de 3 personas en 6 plataformas web que atienden a más de 100 clientes, coordinando desarrollo, mantenimiento, soporte, prioridades y dependencias en un entorno Agile.",
+      "Coordiné entregas a producción de forma quincenal, equilibrando tickets de soporte, mejoras solicitadas por clientes y mejoras continuas en múltiples productos.",
+      "Coordiné los requerimientos desde el refinamiento y definición de soluciones hasta la estimación, desarrollo, QA y entrega a producción, gestionando prioridades y dependencias durante todo el proceso.",
+      "Coordiné la migración de SmartQuick de la versión 4 a la versión 5 mientras se mantenía la plataforma existente en producción, mapeando procesos operativos, administrativos y logísticos y coordinando el trabajo de frontend, backend, QA y producto hasta la entrega.",
+      "Introduje y estructuré prácticas de desarrollo y entrega que mejoraron la organización del trabajo, la priorización, la visibilidad y la coordinación transversal, equilibrando el soporte continuo con el desarrollo de nuevos productos.",
+      "Participé en la contratación y evaluación de 3 desarrolladores frontend, contribuyendo al crecimiento del equipo y a la evaluación de sus capacidades técnicas."
+    ]
+  },
+
+  technologies: [
+    "React",
+    "Vue.js",
+    "JavaScript",
+    "CSS",
+    "HTML",
+    "Docker",
+    "Nginx",
+    "Redis",
+    "Gitea",
+    "GitLab",
+    "AWS",
+    "REST APIs",
+    "AI Tools: ChatGPT, Claude, Gemini",
+    "Helpdesk",
+    "Agile: Scrum, Kanban",
+    "Jira",
+    "Notion"
+  ]
+},
     {
       company: "Colombia Games",
       position: {
@@ -126,7 +118,7 @@ con liderazgo de proyectos y ejecución estratégica.`
         es: "Desarrollador de videojuegos"
       },
       start: "2021-09",
-      end: "2022-10",
+      end: "2022-09",
       context: {
         en: "Game development for educational web games targeting diverse audiences",
         es: "Desarrollo de videojuegos para juegos web educativos dirigidos a audiencias diversas"
@@ -367,6 +359,24 @@ con liderazgo de proyectos y ejecución estratégica.`
   ],
 
   selectedProjects: [
+    {
+      project: {
+        en: "Smartquick v4",
+        es: "Smartquick v4"
+      },
+      problem: {
+        en: "Big Platform with along logistic proccess, changes of role and a variety of clients",
+        es: "Plataforma grande con proceso logístico amplios, cambios de rol y una variedad de clientes"
+      },
+      solution: {
+        en: "Migrate the platform a new version, work with the team get a list of procceses operatives, administratives and logistic, meanwhile treat the old version of this without leave work in progress",
+        es: "Migrar la plataforma a una nueva versión, trabajar con el equipo para obtener una lista de procesos operativos, administrativos y logísticos, mientras se trata la versión antigua de esta sin dejar el trabajo en progreso"
+      },
+      impact: {
+        en: "Create a new platform with the same functionality but with new features and better performance",
+        es: "Crear una nueva plataforma con la misma funcionalidad pero con nuevas características y mejor rendimiento"
+      }
+    },
     {
       project: {
         en: "Educational Web Games Platform",
