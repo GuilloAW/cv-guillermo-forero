@@ -4,15 +4,16 @@
 
 const cvData = {
   personal: {
-    name: "Guillermo Forero",
-    location: "Colombia",
-    email: "guillermoforero.aw@gmail.com",
-    linkedin: "https://www.linkedin.com/in/guillermo-forero-aw/"
-  },
+  name: "Guillermo Forero",
+  location: "Colombia",
+  email: "guillermoforero.aw@gmail.com",
+  linkedin: "https://www.linkedin.com/in/guillermo-forero-aw/",
+  /* github: "https://github.com/GuilloAW" */
+},
 
-  title: {
+title: {
   en: "Frontend Lead | Technical Project Leadership | Digital Delivery",
-  es: "Frontend Lead | Líder de proyectos | Entrega Digital"
+  es: "Frontend Lead | Liderazgo de Proyectos Técnicos | Entrega Digital"
 },
 
   summary: {
@@ -34,78 +35,83 @@ Experiencia práctica en coordinación de equipos, proyectos, stakeholders y pro
 
   experience: [
     {
-      company: "Quick",
-      position: {
-        en: "Tech Lead FrontEnd",
-        es: "Tech Lead FrontEnd"
-      },
-      start: "2022-10",
-      end: "2026-09",
-      context: {
-        en: "Led a frontend team of 3 people (2 frontend developers) managing 5 simultaneous web application projects in an Agile environment",
-        es: "Lideré un equipo frontend de 3 personas (2 desarrolladores frontend) gestionando 5 proyectos de aplicaciones web simultáneos en un entorno Agile, proyectos com as de 100 clientes"
-      },
-      responsibilities: {
-        en: [
-          "Code review and quality assurance",
-          "Mentoring and team development",
-          "Hiring and developer evaluation",
-          "Direct client/stakeholder communication",
-          "Requirements definition and planning",
-          "Sprint planning and daily standups",
-          "Retrospectives and continuous improvement",
-          "Dependency management and coordination",
-          "Progress reporting and delivery tracking",
-          "Prioritization and estimation of tasks"
-        ],
-        es: [
-          "Revisión de código y aseguramiento de calidad",
-          "Mentoría y desarrollo del equipo",
-          "Contratación y evaluación de desarrolladores",
-          "Comunicación directa con clientes/stakeholders",
-          "Definición de requerimientos y planificación",
-          "Planificación de sprints y daily standups",
-          "Retrospectivas y mejora continua",
-          "Gestión de dependencias y coordinación",
-          "Reporte de progreso y seguimiento de entrega",
-          "Priorización y estimación de tareas"
-        ]
-      },
-      achievements: {
-        en: [
-          "Led a 3-person frontend team across 6 concurrent web platforms serving more than 100 clients, coordinating priorities, dependencies and delivery within an Agile environment.",
-"Coordinated biweekly delivery cycles, managing support tickets, client-requested enhancements and continuous platform improvements across multiple products.",
-"Managed requirements, prioritization and delivery coordination with up to 10 stakeholders, aligning technical execution with client and business needs.",
-"Implemented Scrum practices including sprint planning, daily stand-ups and retrospectives to structure work across concurrent projects and improve delivery visibility.",
-"Coordinated the technical execution of key platforms including SmartQuick v4, SmartQuick v3, SmartTracing, Seguimiento a tu Pedido, Formularios de Cotización and a PWA platform.",
-"Participated in the hiring and evaluation of 3 frontend developers, contributing to team growth and technical capability assessment."
-        ],
-        es: [
-          "Lideré un equipo frontend de 3 personas en 6 plataformas web simultáneas que atienden a más de 100 clientes, coordinando prioridades, dependencias y entrega en un entorno Agile",
-          "Coordiné ciclos de entrega quincenales, gestionando tickets de soporte, mejoras solicitadas por clientes y mejoras continuas de plataformas en múltiples productos",
-          "Gestioné requerimientos, priorización y coordinación de entrega con hasta 10 stakeholders, alineando la ejecución técnica con las necesidades de los clientes y del negocio",
-          "Implementé prácticas Scrum incluyendo planificación de sprints, daily stand-ups y retrospectivas para estructurar el trabajo en proyectos simultáneos y mejorar la visibilidad de la entrega",
-          "Coordiné la ejecución técnica de plataformas clave incluyendo SmartQuick v4, SmartQuick v3, SmartTracing, Seguimiento a tu Pedido, Formularios de Cotización y una plataforma PWA",
-          "Participé en la contratación y evaluación de 3 desarrolladores frontend, contribuyendo al crecimiento del equipo y a la evaluación de capacidades técnicas"
-        ]
-      },
-      technologies: [
-        "React",
-        "Vue js",
-        "JavaScript",
-        "CSS",
-        "HTML",
-        "Docker",
-        "Nginx",
-        "Redis",
-        "gitea - gitlab",
-        "AWS",
-        "API Rest",
-        "IA: ChatGPT, Claude, Gemini",
-        "helpdesk",
-        "Agile: Scrum, Kanban (Jira, Notion)"
-      ]
-    },
+  company: "Quick",
+  position: {
+    en: "Tech Lead FrontEnd",
+    es: "Tech Lead FrontEnd"
+  },
+  start: "2022-10",
+  end: "2026-09",
+
+  context: {
+    en: "Led a 3-person frontend team responsible for the development, maintenance, and evolution of 6 web platforms serving more than 100 clients, working across frontend, backend, QA, product, and DevOps in an Agile environment.",
+    es: "Lideré un equipo frontend de 3 personas responsable del desarrollo, mantenimiento y evolución de 6 plataformas web que atienden a más de 100 clientes, trabajando de forma transversal con frontend, backend, QA, producto y DevOps en un entorno Agile."
+  },
+
+  responsibilities: {
+    en: [
+      "Technical leadership, code review, and quality assurance",
+      "Requirements analysis, refinement, planning, and estimation",
+      "Task allocation, prioritization, and sprint planning",
+      "Frontend development and technical decision-making",
+      "Cross-functional coordination with backend, QA, product, and DevOps",
+      "Dependency, blocker, and progress management",
+      "Release coordination, production delivery, and technical support",
+      "Mentoring, hiring, and developer evaluation"
+    ],
+
+    es: [
+      "Liderazgo técnico, revisión de código y aseguramiento de calidad",
+      "Análisis, refinamiento, planificación y estimación de requerimientos",
+      "Asignación de tareas, priorización y planificación de sprints",
+      "Desarrollo frontend y toma de decisiones técnicas",
+      "Coordinación transversal con backend, QA, producto y DevOps",
+      "Gestión de dependencias, bloqueos y seguimiento del avance",
+      "Coordinación de entregas, despliegues y soporte técnico",
+      "Mentoría, contratación y evaluación de desarrolladores"
+    ]
+  },
+
+  achievements: {
+    en: [
+      "Led a 3-person frontend team across 6 web platforms serving more than 100 clients, coordinating development, maintenance, support, priorities, and dependencies within an Agile environment.",
+      "Coordinated biweekly production releases, balancing support tickets, client-requested enhancements, and continuous platform improvements across multiple products.",
+      "Coordinated requirements from refinement and solution definition through estimation, development, QA, and production delivery, managing priorities and dependencies throughout the process.",
+      "Coordinated the migration of SmartQuick from v4 to v5 while maintaining the existing platform in production, mapping operational, administrative, and logistics processes and coordinating frontend, backend, QA, and product work through delivery.",
+      "Introduced and structured development and delivery practices that improved work organization, prioritization, visibility, and cross-functional coordination while balancing ongoing support with new product development.",
+      "Participated in the hiring and evaluation of 3 frontend developers, contributing to team growth and technical capability assessment."
+    ],
+
+    es: [
+      "Lideré un equipo frontend de 3 personas en 6 plataformas web que atienden a más de 100 clientes, coordinando desarrollo, mantenimiento, soporte, prioridades y dependencias en un entorno Agile.",
+      "Coordiné entregas a producción de forma quincenal, equilibrando tickets de soporte, mejoras solicitadas por clientes y mejoras continuas en múltiples productos.",
+      "Coordiné los requerimientos desde el refinamiento y definición de soluciones hasta la estimación, desarrollo, QA y entrega a producción, gestionando prioridades y dependencias durante todo el proceso.",
+      "Coordiné la migración de SmartQuick de la versión 4 a la versión 5 mientras se mantenía la plataforma existente en producción, mapeando procesos operativos, administrativos y logísticos y coordinando el trabajo de frontend, backend, QA y producto hasta la entrega.",
+      "Introduje y estructuré prácticas de desarrollo y entrega que mejoraron la organización del trabajo, la priorización, la visibilidad y la coordinación transversal, equilibrando el soporte continuo con el desarrollo de nuevos productos.",
+      "Participé en la contratación y evaluación de 3 desarrolladores frontend, contribuyendo al crecimiento del equipo y a la evaluación de sus capacidades técnicas."
+    ]
+  },
+
+  technologies: [
+    "React",
+    "Vue.js",
+    "JavaScript",
+    "CSS",
+    "HTML",
+    "Docker",
+    "Nginx",
+    "Redis",
+    "Gitea",
+    "GitLab",
+    "AWS",
+    "REST APIs",
+    "AI Tools: ChatGPT, Claude, Gemini",
+    "Helpdesk",
+    "Agile: Scrum, Kanban",
+    "Jira",
+    "Notion"
+  ]
+},
     {
       company: "Colombia Games",
       position: {
