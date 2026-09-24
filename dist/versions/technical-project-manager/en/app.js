@@ -7,12 +7,12 @@ const cvData = {
     "github": "https://github.com/guillermo-forero"
   },
   "title": {
-    "en": "Frontend Lead | Technical Project Leadership | Digital Delivery",
-    "es": "Frontend Lead | Liderazgo de Proyectos Técnicos | Entrega Digital"
+    "en": "Technical Project Manager | IT Project Management | Agile Delivery",
+    "es": "Technical Project Manager | Gestión de Proyectos de TI | Entrega Agile"
   },
   "summary": {
-    "en": "Frontend Lead and technology professional with experience leading multidisciplinary development teams, coordinating IT projects, and delivering digital products aligned with business objectives.\n\nExperienced in technical leadership, frontend development, UX/UI, web accessibility, Agile methodologies, stakeholder management, requirements planning, prioritization, and delivery coordination.\n\nBridge technical and business teams to translate requirements into digital solutions, manage dependencies, remove delivery blockers, and maintain alignment throughout the development lifecycle.\n\nBrings hands-on experience coordinating teams, projects, stakeholders, and delivery processes, with a career focus on Technical Project Management, IT Project Management, and Digital Delivery.",
-    "es": "Frontend Lead y profesional de tecnología con experiencia liderando equipos multidisciplinarios de desarrollo, coordinando proyectos de TI y entregando productos digitales alineados con objetivos de negocio.\n\nExperiencia en liderazgo técnico, desarrollo frontend, UX/UI, accesibilidad web, metodologías Agile, gestión de stakeholders, planificación de requerimientos, priorización y coordinación de entregas.\n\nConecto equipos técnicos y de negocio para traducir requerimientos en soluciones digitales, gestionar dependencias, eliminar bloqueos de entrega y mantener la alineación durante el ciclo de desarrollo.\n\nExperiencia práctica en coordinación de equipos, proyectos, stakeholders y procesos de entrega, con orientación profesional hacia la Gestión de Proyectos Técnicos, Gestión de Proyectos de TI y Digital Delivery."
+    "en": "Technical Project Manager and technology professional with experience managing IT projects, coordinating technical teams, and delivering complex digital solutions.\n\nExperienced in technical project management, Agile methodologies, requirements analysis, technical planning, and cross-functional coordination.\n\nBridge business requirements with technical execution to ensure projects are delivered on time, within scope, and aligned with quality standards.\n\nHands-on experience in technical coordination, dependency management, risk mitigation, and delivery oversight, with a career focus on Technical Project Management, IT Project Management, and Agile Delivery.",
+    "es": "Technical Project Manager y profesional de tecnología con experiencia gestionando proyectos de TI, coordinando equipos técnicos y entregando soluciones digitales complejas.\n\nExperiencia en gestión de proyectos técnicos, metodologías Agile, análisis de requerimientos, planificación técnica y coordinación transversal.\n\nConecto requerimientos de negocio con ejecución técnica para asegurar que los proyectos se entreguen a tiempo, dentro del alcance y alineados con estándares de calidad.\n\nExperiencia práctica en coordinación técnica, gestión de dependencias, mitigación de riesgos y supervisión de entregas, con orientación profesional hacia Gestión de Proyectos Técnicos, Gestión de Proyectos de TI y Entrega Agile."
   },
   "experience": [
     {
@@ -390,23 +390,49 @@ const cvData = {
     }
   ],
   "technicalSkills": {
-    "languages": [
-      "JavaScript",
-      "HTML",
-      "CSS",
-      "Python",
-      "PHP"
+    "technical": [
+      "Frontend Development",
+      "Web Technologies",
+      "Technical Requirements Analysis",
+      "Solution Architecture",
+      "Technical Planning"
     ],
     "tools": [
+      "Jira",
+      "Notion",
+      "Project Management Tools",
       "Git",
       "Docker",
       "Nginx"
     ]
   },
   "projectManagementSkills": {
-    "methodologies": [
+    "projectManagement": [
+      "Technical Project Management",
+      "IT Project Management",
       "Agile",
-      "Scrum"
+      "Scrum",
+      "Kanban"
+    ],
+    "leadership": [
+      "Technical Leadership",
+      "Stakeholder Management",
+      "Team Coordination",
+      "Cross-functional Leadership",
+      "Dependency Management"
+    ],
+    "delivery": [
+      "Delivery Management",
+      "Release Coordination",
+      "Sprint Planning",
+      "Metrics Tracking",
+      "Blocker Management"
+    ],
+    "communication": [
+      "Technical-Business Translation",
+      "Requirements Analysis",
+      "Technical Documentation",
+      "Stakeholder Communication"
     ]
   },
   "education": {

@@ -1,0 +1,266 @@
+/* Print styles for Guillermo Forero CV */
+
+@page {
+  size: A4;
+  margin: 12mm 14mm;
+}
+
+@page :header {
+  display: none;
+}
+
+@page :footer {
+  display: none;
+}
+
+@media print {
+  html,
+  body {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  body {
+    background-color: #fff;
+    color: #000;
+    font-size: 10pt;
+    line-height: 1.25;
+  }
+
+  .container {
+    box-shadow: none;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .header {
+    border-bottom: 2px solid #000;
+    margin-bottom: 8pt;
+  }
+
+  .header h1 {
+    color: #000;
+    font-size: 16pt;
+    margin: 6pt 0 3pt 0;
+  }
+
+  .title {
+    color: #000;
+    font-size: 11pt;
+    margin: 3pt 0 6pt 0;
+  }
+
+  .contact-info {
+    font-size: 9pt;
+    margin: 3pt 0;
+  }
+
+  .contact-info a {
+    color: #000;
+    text-decoration: none;
+  }
+
+  section {
+    margin: 10pt 0 6pt 0;
+  }
+
+  section h2 {
+    color: #1d4ed8 !important;
+    border-bottom: 1px solid #000;
+    font-size: 14pt;
+    margin: 8pt 0 6pt 0;
+    padding-bottom: 2pt;
+  }
+
+  .experience-item, .education-item, .certification-item {
+    background-color: #fff;
+    border-left: 2px solid #1e3a8a;
+    margin: 6pt 0;
+    padding: 4pt 0 4pt 8pt;
+  }
+
+  .certification-item {
+    margin: 4pt 0;
+    padding: 3pt 0 3pt 8pt;
+  }
+
+  .experience-item h3, .education-item h3, .certification-item h3 {
+    color: #1d4ed8 !important;
+    font-size: 11pt;
+    margin: 3pt 0 2pt 0;
+  }
+
+  .certification-item h3 {
+    font-size: 10pt;
+    margin: 2pt 0 1pt 0;
+  }
+
+  .experience-item .company, .experience-item .date, 
+  .education-item .institution, .education-item .year,
+  .certification-item .issuer, .certification-item .year {
+    color: #000;
+    font-size: 9pt;
+    margin: 2pt 0;
+  }
+
+  .experience-item p, .education-item p, .certification-item p {
+    font-size: 9pt;
+    margin: 2pt 0;
+  }
+
+  .experience-item ul, .education-item ul, .certification-item ul {
+    font-size: 9pt;
+    margin: 2pt 0;
+    padding-left: 14pt;
+  }
+
+  .experience-item li, .education-item li, .certification-item li {
+    margin: 1pt 0;
+  }
+
+  .technologies li {
+    background-color: #f0f0f0;
+    border: 1px solid #000;
+    font-size: 8pt;
+    padding: 2pt 4pt;
+    margin: 2pt;
+    display: inline-block;
+  }
+
+  .skill-category {
+    background-color: #fff;
+    border: 1px solid #000;
+    margin: 4pt 0;
+    padding: 3pt;
+  }
+
+  .skill-category h3 {
+    color: #000;
+    font-size: 10pt;
+    margin: 3pt 0;
+  }
+
+  .skill-category ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3pt;
+    margin: 3pt 0;
+    padding: 0;
+  }
+
+  .skill-category li {
+    background-color: #f0f0f0;
+    border: 1px solid #000;
+    font-size: 8pt;
+    padding: 2pt 3pt;
+    margin: 0;
+    list-style: none;
+  }
+
+  .language-item {
+    background-color: #fff;
+    border: 1px solid #000;
+    padding: 2pt 4pt;
+    margin: 2pt 0;
+    display: inline-block;
+  }
+
+  .language-item strong {
+    color: #000;
+    font-size: 9pt;
+  }
+
+  /* Dar más espacio a la experiencia más reciente (Quick) */
+  .experience-item:first-child {
+    margin: 8pt 0 6pt 0;
+    padding: 6pt 0 6pt 8pt;
+  }
+
+  .experience-item:first-child h3 {
+    font-size: 12pt;
+  }
+
+  .experience-item:first-child ul {
+    margin: 4pt 0;
+  }
+
+  .experience-item:first-child li {
+    margin: 2pt 0;
+  }
+
+  /* Comprimir experiencias más antiguas */
+  .experience-item:nth-child(n+3) {
+    margin: 4pt 0;
+    padding: 3pt 0 3pt 8pt;
+  }
+
+  .experience-item:nth-child(n+3) h3 {
+    font-size: 10pt;
+  }
+
+  .experience-item:nth-child(n+3) p,
+  .experience-item:nth-child(n+3) ul {
+    font-size: 8pt;
+    margin: 2pt 0;
+  }
+
+  .experience-item:nth-child(n+3) li {
+    margin: 1pt 0;
+  }
+
+  /* Comprimir achievements y responsibilities en experiencias antiguas */
+  .experience-item:nth-child(n+3) .achievements,
+  .experience-item:nth-child(n+3) .responsibilities {
+    font-size: 8pt;
+  }
+
+  .experience-item:nth-child(n+3) .technologies {
+    font-size: 7pt;
+  }
+
+  /* Hide contact links in print */
+  .contact-info a::after {
+    content: " (" attr(href) ")";
+    font-size: 0.8em;
+  }
+
+  /* Hide language selector in print */
+  .language-selector {
+    display: none;
+  }
+
+  .section,
+  .experience-section,
+  .experience-item,
+  .project-item,
+  .skills-section,
+  .education-section,
+  .certifications-section {
+    break-before: auto;
+    break-after: auto;
+    page-break-before: auto;
+    page-break-after: auto;
+  }
+
+  section h2,
+  .experience-item h3,
+  .education-item h3,
+  .certification-item h3 {
+    break-after: avoid-page;
+    page-break-after: avoid;
+  }
+
+  .experience-item,
+  .education-item,
+  .certification-item {
+    break-inside: auto;
+    page-break-inside: auto;
+  }
+
+  .technologies,
+  .skill-category ul {
+    break-before: avoid-page;
+    page-break-before: avoid;
+  }
+}

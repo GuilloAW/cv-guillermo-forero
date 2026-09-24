@@ -11,25 +11,89 @@ const cvData = {
 },
 
 title: {
-  en: "Frontend Lead | Technical Project Leadership | Digital Delivery",
-  es: "Frontend Lead | Liderazgo de Proyectos Técnicos | Entrega Digital"
+  default: {
+    en: "Frontend Lead | Technical Project Leadership | Digital Delivery",
+    es: "Frontend Lead | Liderazgo de Proyectos Técnicos | Entrega Digital"
+  },
+  "delivery-manager": {
+    en: "Delivery Manager | Digital Product Delivery | Stakeholder Coordination",
+    es: "Delivery Manager | Entrega de Productos Digitales | Coordinación de Stakeholders"
+  },
+  "frontend-lead": {
+    en: "Frontend Lead | Technical Leadership | Web Development",
+    es: "Frontend Lead | Liderazgo Técnico | Desarrollo Web"
+  },
+  "technical-project-manager": {
+    en: "Technical Project Manager | IT Project Management | Agile Delivery",
+    es: "Technical Project Manager | Gestión de Proyectos de TI | Entrega Agile"
+  }
 },
 
   summary: {
-    en: `Frontend Lead and technology professional with experience leading multidisciplinary development teams, coordinating IT projects, and delivering digital products aligned with business objectives.
+    default: {
+      en: `Frontend Lead and technology professional with experience leading multidisciplinary development teams, coordinating IT projects, and delivering digital products aligned with business objectives.
 
 Experienced in technical leadership, frontend development, UX/UI, web accessibility, Agile methodologies, stakeholder management, requirements planning, prioritization, and delivery coordination.
 
 Bridge technical and business teams to translate requirements into digital solutions, manage dependencies, remove delivery blockers, and maintain alignment throughout the development lifecycle.
 
 Brings hands-on experience coordinating teams, projects, stakeholders, and delivery processes, with a career focus on Technical Project Management, IT Project Management, and Digital Delivery.`,
-    es: `Frontend Lead y profesional de tecnología con experiencia liderando equipos multidisciplinarios de desarrollo, coordinando proyectos de TI y entregando productos digitales alineados con objetivos de negocio.
+      es: `Frontend Lead y profesional de tecnología con experiencia liderando equipos multidisciplinarios de desarrollo, coordinando proyectos de TI y entregando productos digitales alineados con objetivos de negocio.
 
 Experiencia en liderazgo técnico, desarrollo frontend, UX/UI, accesibilidad web, metodologías Agile, gestión de stakeholders, planificación de requerimientos, priorización y coordinación de entregas.
 
 Conecto equipos técnicos y de negocio para traducir requerimientos en soluciones digitales, gestionar dependencias, eliminar bloqueos de entrega y mantener la alineación durante el ciclo de desarrollo.
 
 Experiencia práctica en coordinación de equipos, proyectos, stakeholders y procesos de entrega, con orientación profesional hacia la Gestión de Proyectos Técnicos, Gestión de Proyectos de TI y Digital Delivery.`
+    },
+    "delivery-manager": {
+      en: `Delivery Manager and technology professional with experience coordinating digital product delivery, managing stakeholder relationships, and ensuring alignment between business objectives and technical execution.
+
+Experienced in Agile methodologies, delivery coordination, requirements planning, cross-functional team management, and continuous improvement processes.
+
+Bridge business and technical teams to translate requirements into actionable delivery plans, manage dependencies, remove blockers, and maintain alignment throughout the product lifecycle.
+
+Hands-on experience in delivery coordination, stakeholder management, and process optimization, with a career focus on Digital Delivery, IT Project Management, and stakeholder coordination.`,
+      es: `Delivery Manager y profesional de tecnología con experiencia coordinando la entrega de productos digitales, gestionando relaciones con stakeholders y asegurando la alineación entre objetivos de negocio y ejecución técnica.
+
+Experiencia en metodologías Agile, coordinación de entregas, planificación de requerimientos, gestión de equipos transversales y procesos de mejora continua.
+
+Conecto equipos de negocio y técnicos para traducir requerimientos en planes de entrega accionables, gestionar dependencias, eliminar bloqueos y mantener la alineación durante el ciclo de vida del producto.
+
+Experiencia práctica en coordinación de entregas, gestión de stakeholders y optimización de procesos, con orientación profesional hacia Digital Delivery, Gestión de Proyectos de TI y coordinación de stakeholders.`
+    },
+    "frontend-lead": {
+      en: `Frontend Lead and technology professional with experience leading frontend development teams, architecting web solutions, and implementing modern frontend best practices.
+
+Experienced in technical leadership, frontend development, UX/UI implementation, web accessibility, code quality, and team mentoring.
+
+Bridge design and development teams to translate user requirements into performant, accessible, and maintainable frontend solutions.
+
+Hands-on experience in frontend architecture, technical decision-making, code review, and developer growth, with a career focus on Frontend Leadership, Web Development, and Technical Excellence.`,
+      es: `Frontend Lead y profesional de tecnología con experiencia liderando equipos de desarrollo frontend, arquitecturando soluciones web e implementando mejores prácticas modernas de frontend.
+
+Experiencia en liderazgo técnico, desarrollo frontend, implementación UX/UI, accesibilidad web, calidad de código y mentoría de equipos.
+
+Conecto equipos de diseño y desarrollo para traducir requerimientos de usuario en soluciones frontend performantes, accesibles y mantenibles.
+
+Experiencia práctica en arquitectura frontend, toma de decisiones técnicas, revisión de código y crecimiento de desarrolladores, con orientación profesional hacia Liderazgo Frontend, Desarrollo Web y Excelencia Técnica.`
+    },
+    "technical-project-manager": {
+      en: `Technical Project Manager and technology professional with experience managing IT projects, coordinating technical teams, and delivering complex digital solutions.
+
+Experienced in technical project management, Agile methodologies, requirements analysis, technical planning, and cross-functional coordination.
+
+Bridge business requirements with technical execution to ensure projects are delivered on time, within scope, and aligned with quality standards.
+
+Hands-on experience in technical coordination, dependency management, risk mitigation, and delivery oversight, with a career focus on Technical Project Management, IT Project Management, and Agile Delivery.`,
+      es: `Technical Project Manager y profesional de tecnología con experiencia gestionando proyectos de TI, coordinando equipos técnicos y entregando soluciones digitales complejas.
+
+Experiencia en gestión de proyectos técnicos, metodologías Agile, análisis de requerimientos, planificación técnica y coordinación transversal.
+
+Conecto requerimientos de negocio con ejecución técnica para asegurar que los proyectos se entreguen a tiempo, dentro del alcance y alineados con estándares de calidad.
+
+Experiencia práctica en coordinación técnica, gestión de dependencias, mitigación de riesgos y supervisión de entregas, con orientación profesional hacia Gestión de Proyectos Técnicos, Gestión de Proyectos de TI y Entrega Agile.`
+    }
   },
 
   experience: [
@@ -415,59 +479,6 @@ Experiencia práctica en coordinación de equipos, proyectos, stakeholders y pro
     }
   ],
 
-  technicalSkills: {
-    frontend: [
-      "JavaScript",
-      "Python",
-      "PHP",
-      "HTML",
-      "CSS",
-      "React",
-      "TypeScript",
-      "Sass",
-      "JQuery",
-      "SVG",
-      "Git"
-    ],
-    webDesign: [
-      "UX",
-      "UI",
-      "Design thinking",
-      "Diseño centrado en el usuario",
-      "Diseño universal",
-      "Maquetación y diseño de prototipos"
-    ],
-    accessibility: [
-      "WCAG",
-      "WCAG 2.1",
-      "HTML semántico",
-      "ARIA",
-      "Accessibility Testing",
-      "Lector de voz",
-      "Accesibilidad web"
-    ]
-  },
-
-  projectManagementSkills: {
-    methodologies: [
-      "Agile",
-      "Scrum",
-      "Kanban"
-    ],
-    leadership: [
-      "Gestión de Stakeholders",
-      "Liderazgo de equipos técnicos",
-      "Coordinación de entregas",
-      "Gestión de dependencias"
-    ],
-    delivery: [
-      "Technical Project Management",
-      "Delivery Management",
-      "Planificación de sprints",
-      "Seguimiento de métricas"
-    ]
-  },
-
   education: {
     master: [
       {
@@ -522,6 +533,14 @@ Experiencia práctica en coordinación de equipos, proyectos, stakeholders y pro
         es: "Cómo Llevar un Proyecto de Animación al Mercado Internacional"
       },
       issuer: "Crea digital",
+      year: "2026"
+    },
+    {
+      name: {
+        en: "n8n Quickstart",
+        es: "n8n Quickstart"
+      },
+      issuer: "n8n",
       year: "2026"
     }
   ],
