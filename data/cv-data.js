@@ -98,7 +98,7 @@ Experiencia práctica en coordinación técnica, gestión de dependencias, mitig
 
   experience: [
     {
-  company: "Quick",
+  company: "SmartQuick",
   position: {
     en: "Tech Lead FrontEnd",
     es: "Tech Lead FrontEnd"

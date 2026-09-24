@@ -16,7 +16,7 @@ const cvData = {
   },
   "experience": [
     {
-      "company": "Quick",
+      "company": "SmartQuick",
       "position": {
         "en": "Tech Lead FrontEnd",
         "es": "Tech Lead FrontEnd"
@@ -507,6 +507,8 @@ const cvData = {
     }
   ]
 };
+
+
 
 
 
