@@ -471,6 +471,15 @@ const cvData = {
       },
       "issuer": "n8n",
       "year": "2026"
+    },
+    {
+      "name": {
+        "en": "Certificate of Achievement Fundamentals of Agents",
+        "es": "Certificado de Logro Fundamentos de Agentes"
+      },
+      "issuer": "Hugging Face",
+      "year": "2026",
+      "url": "https://cdn-uploads.huggingface.co/production/uploads/noauth/xsSV6N-RiVg03l7cDJHz8.webp"
     }
   ],
   "languages": [
@@ -490,6 +499,10 @@ const cvData = {
     }
   ]
 };
+
+
+
+
 
 
 
@@ -795,6 +808,7 @@ function loadCertifications() {
                     <h3>${name}</h3>
                     <p class="issuer">${cert.issuer}</p>
                     <p class="year">${cert.year}</p>
+                    ${cert.url ? `<a href="${cert.url}" target="_blank" class="cert-link">View Certificate</a>` : ''}
                 </div>
             `;
         });
